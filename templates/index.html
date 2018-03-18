@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title>File Converter</title>
+    <link rel="icon" href="../static/images/favicon.ico" type="image/ico" sizes="16x16">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+	<div class="frame">
+		<div class="center">
+			<div class="bar"></div>
+			<div class="title">Click to upload file</div>
+			<div class="dropzone">
+                <form id="file_form" name="file_form">
+				<div class="content">
+					<img src="../static/images/upload.svg" class="upload">
+					<span class="filename"></span>
+					<input type="file" name="file" class="input">
+				</div>
+                </form>
+			</div>
+			<img src="../static/images/syncing.svg" class="syncing">
+			<img src="../static/images/checkmark.svg" class="done">
+			<div class="upload-btn">Upload file</div>
+		</div>
+	</div>
+	<script src='../static/js/jquery.min.js'></script>
+	<script  src="../static/js/index.js"></script>
+</body>
+</html>
